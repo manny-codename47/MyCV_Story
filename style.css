@@ -628,6 +628,74 @@ h2 em {
   letter-spacing: 0.8px;
 }
 
+.cloud-journey-section {
+  background: var(--forest-soft);
+  color: #f3f2eb;
+}
+
+.cloud-journey {
+  padding-block: 82px;
+}
+
+.cloud-journey-content {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  align-items: center;
+  gap: 80px;
+  margin-top: 32px;
+}
+
+.cloud-journey-content h2 {
+  margin-bottom: 0;
+  font-size: clamp(40px, 4.7vw, 58px);
+  font-weight: 500;
+  letter-spacing: -3px;
+  line-height: 1.06;
+}
+
+.cloud-journey-content h2 em {
+  color: var(--lime);
+  font-family: var(--serif);
+  font-weight: 400;
+}
+
+.cloud-journey-copy > p {
+  margin-bottom: 21px;
+  color: #c3cec4;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.cloud-exam-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 5px 13px;
+  padding: 15px 17px;
+  border: 1px solid #ffffff35;
+  background: #ffffff08;
+}
+
+.exam-status {
+  grid-row: span 2;
+  padding: 6px 8px;
+  background: var(--lime);
+  color: var(--ink);
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.7px;
+}
+
+.cloud-exam-card strong {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.exam-caption {
+  color: #b6c4b8;
+  font-size: 10px;
+}
+
 .expertise-heading {
   display: flex;
   align-items: flex-end;
@@ -1045,6 +1113,30 @@ h2 em {
 
   .role-main h3 {
     font-size: 17px;
+  }
+
+  .cloud-journey {
+    padding-block: 69px;
+  }
+
+  .cloud-journey-content {
+    grid-template-columns: 1fr;
+    gap: 21px;
+    margin-top: 30px;
+  }
+
+  .cloud-journey-content h2 {
+    font-size: 42px;
+    letter-spacing: -2.5px;
+  }
+
+  .cloud-exam-card {
+    gap: 5px 10px;
+    padding: 13px;
+  }
+
+  .cloud-exam-card strong {
+    font-size: 11px;
   }
 
   .expertise-heading {

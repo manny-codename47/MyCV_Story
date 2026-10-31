@@ -2,7 +2,9 @@
 
 A responsive, single-page portfolio website based on Emmanuel Isitor's CV.
 It highlights his cloud data engineering experience, selected achievements,
-technical expertise, education, certifications, and contact details.
+technical expertise, transition toward AWS cloud engineering, education,
+certifications, and contact details. It also notes that he is studying AWS
+cloud engineering and has passed the AWS Solutions Architect – Associate exam.
 
 ## View the website
 
